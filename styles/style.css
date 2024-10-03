@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(/styles/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(/styles/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Sora;
+    src: url(/styles/fonts/Sora-VariableFont_wght.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-primary: #0d0d0d;
+    --color-secundary: #28E98C;
+    --color-dark: #191919;
+    --font-primary: Poppins-Regular;
+    --font-secundary: Poppins-Medium;
+    --font-titles: Sora;
+}
+
+body {
+ background: var(--color-primary);
+    background: -webkit-linear-gradient(to right, var(--color-dark), #203A43, var(--color-primary));
+    background: linear-gradient(to right, var(--color-dark), #203A43,var(--color-primary));
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+    font-size: 14px;
+    font-family: var(--font-primary);
+}
+
+button {
+    cursor: pointer;
+}
+
+/*/ Global styles /*/
+
+.main {
+    padding: 0px 1rem;
+}
+
+.main__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0px;
+}
+
+.main__h3 {
+    font-family: var(--font-titles);
+    font-size: 1.3rem;
+    color: white;
+}
+
+.main__uptotop{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    background-color: var(--color-primary);
+    border-radius: 8px;
+    border: 1px solid var(--color-secundary);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*/ HEADER /*/
+
+
+
+/*/ HOME /*/
+
+
+
+/*/ EXPERIENCE /*/
+
+
+
+
+
+/*/ PROJECTS /*/
+
+
+
+
+
+/*/ ABOUT /*/
+
+
+
+
+
+/*/ FOOTER /*/
+
